@@ -1,0 +1,53 @@
+header { 
+    background-color: rgb(47, 255, 82);
+    padding: 20px;
+
+}
+
+nav {
+    background-color: green;
+    color: white;
+    padding: 5px;
+    display: block;
+    
+}
+
+
+
+aside {
+    background-color: orange;
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    position: static;
+    margin-top: 20px;
+    width: 20vh;
+    height: 70vh;
+}
+
+.box { background-color: red;
+    color: white;
+    position: static;
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    width: 145vh;
+    height: 70vh;
+
+}
+
+article {
+    background-color: white;
+    color: black;    
+    padding: 10px;
+    margin: 20px;
+    width: 20vh;
+}
+
+footer {
+    background-color: fuchsia;
+    color: white;
+    margin-top: 20px;
+    padding: 20px;
+    
+}
