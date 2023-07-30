@@ -1,0 +1,93 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+body {
+    background-color: rgb(55, 47, 63);
+    color:white;
+}
+
+.card__container-basic {
+    display: inline-block;
+    
+    width: 220px;
+    height: 370px;
+    padding: 30px 30px 13px 30px;
+    border-radius: 10px;
+    text-align: center;
+    background: linear-gradient(to left, #91eae4, #86a8e7, #7f7fd5);
+    box-shadow : 2px 2px 46px -4px rgba(0, 0, 0, 0.6);
+}
+
+.card__container-awesome {
+    display: inline-block;
+    margin: 30px;
+    width: 220px;
+    height: 370px;
+    padding: 30px 30px 13px 30px;
+    border-radius: 10px;
+    text-align: center;
+    background: linear-gradient(to right, #ff4b2b, #ff416c);
+    box-shadow : 2px 2px 46px -4px rgba(0, 0, 0, 0.6);
+}
+
+.card__container-premium {
+    display: inline-block;
+    
+    width: 220px;
+    height: 370px;
+    padding: 30px 30px 13px 30px;
+    border-radius: 10px;
+    text-align: center;
+    background: linear-gradient(to right, #96c93d, #00b09b);
+    box-shadow : 2px 2px 46px -4px rgba(0, 0, 0, 0.6);
+}
+
+.card__type {
+    margin-top: 30px;
+    letter-spacing: 0.1rem;
+}
+
+.card__price {
+    font-size: 7.5rem;    
+      margin: 10px 0px 20px;
+      z-index: 2;
+      text-shadow : 0.6em 2em 2em #F8F9FE;
+}
+
+.price__symbol {
+    font-size: 1.8rem;        
+        left: -15%;
+        top: 65%;
+}
+
+.card__plan {
+    font-size: 1.3rem;
+      position: relative;
+      margin-bottom: 10px;    
+}
+
+.card__details {
+    margin-left: 22px;
+    margin-right: auto;
+    text-align: left;
+    list-style-type: none;
+}
+
+.card__button {
+    background-color: white;
+    
+    width: 250px;
+    height: 30px;
+    border-radius: 10px 0 10px 0 ;
+
+}
+
+.card__button-subscribe {
+    text-align: right;
+    
+    color: black;
+
+    font-size: 1.2rem;
+}
